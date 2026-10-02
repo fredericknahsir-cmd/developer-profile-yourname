@@ -236,3 +236,57 @@ footer {
         padding: 1.4rem 1rem;
     }
 }
+
+a {
+    color: #0066cc;
+    text-decoration: underline;
+    transition: color 0.2s ease;
+}
+
+a:visited {
+    color: #551a8b;
+}
+
+a:hover {
+    color: #004499;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:focus {
+    outline: 2px solid #ffbf47;
+}
+
+a:active {
+    color: #ff0000;
+}
+
+.custom-button {
+    background: none;
+    border: none;
+    font: inherit;
+    cursor: pointer;
+
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s ease;
+}
+
+.custom-button:hover,
+.custom-button:focus {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    outline: none;
+}
+
+.custom-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
