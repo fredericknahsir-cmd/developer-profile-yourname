@@ -1,0 +1,67 @@
+#skills ul {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+	gap: 0.5rem 2rem;
+}
+
+body > nav > ul {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	list-style: none;
+	padding: 0;
+}
+
+.card {
+    box-sizing: border-box;
+    padding: 1.5rem;
+    margin-block: 2rem;
+    background: #ffffff;
+    border: 1.0px solid #cbd5e1;
+}
+
+.card-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+h1 {
+  font-size: var(--text-xl);
+  letter-spacing: -0.02em; /* Tighter letter-spacing on huge headlines */
+}
+
+h2 {
+  font-size: var(--text-lg);
+  font-weight: var(--weight-semibold);
+  letter-spacing: -0.01em;
+}
+
+h3 {
+  font-size: var(--text-md);
+  font-weight: var(--weight-semibold);
+}
+
+/* 4. Body Text Style */
+p {
+  font-size: var(--text-base);
+  font-weight: var(--weight-regular);
+  margin-top: 0;
+  margin-bottom: 1.25rem; /* Standard paragraph gap */
+}
+
+/* 5. Support & Supplementary Text Styles */
+.text-support {
+  font-size: var(--text-sm);
+  line-height: 1.4;
+  color: var(--color-text-muted); /* Lower visual weight via color contrast */
+}
+
+.text-caption {
+  font-size: var(--text-xs);
+  line-height: 1.3;
+  color: var(--color-text-muted);
+  font-weight: var(--weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 0.05em; /* Always track out small uppercase text */
+}
