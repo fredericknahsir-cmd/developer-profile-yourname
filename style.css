@@ -387,3 +387,79 @@ a:hover {
         box-shadow: 0 0 0 0 rgba(98, 0, 238, 0);
     }
 }
+
+:root {
+    --bg: #07131f;
+    --bg-2: #0d1d2d;
+    --panel: rgba(19, 35, 0.8);
+    --text: #ecf7ff;
+    --muted: #b7cfe8;
+    --primary: #73e0d0;
+    --accent: #ffcb6b;
+    --border: rgba(225, 255, 255, 0.08);
+}
+
+body {
+  background: radial-gradient(circle at top, #12263d 0%, var(--bg) 40%, #050d15 100%);
+  color: var(--text);
+  font-family: "Segoe UI", sans-serif;
+}
+
+section {
+  background: rgba(17, 29, 43, 0.75);
+  border: 1px solid var(--border);
+  border-radius: 22px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(8px);
+}
+
+h1, h2, h3 {
+  color: var(--text);
+}
+
+h2 {
+  color: var(--primary);
+  letter-spacing: 0.04em;
+}
+
+.project-card {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.2rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 35px rgba(115, 224, 208, 0.12);
+}
+
+.project-tags span {
+  background: rgba(115, 224, 208, 0.12);
+  color: var(--primary);
+  border: 1px solid rgba(115, 224, 208, 0.3);
+  border-radius: 999px;
+  padding: 0.45rem 0.8rem;
+  font-weight: 700;
+}
+
+.interactive-btn,
+.html-button,
+.project-link {
+  background: linear-gradient(135deg, var(--primary), #4cc9c0);
+  color: #07141d;
+  border: none;
+  border-radius: 999px;
+  padding: 0.8rem 1.2rem;
+  font-weight: 700;
+  box-shadow: 0 10px 24px rgba(115, 224, 208, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.interactive-btn:hover,
+.html-button:hover,
+.project-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px rgba(115, 224, 208, 0.35);
+}
