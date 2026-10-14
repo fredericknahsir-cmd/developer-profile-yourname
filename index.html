@@ -3,128 +3,164 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>developer profile</title>
-
+    <title>Nahsir Frederick | Developer Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-     <nav>
+    <nav class="topbar">
+        <div class="brand">Nahsir<span>F</span></div>
         <ul>
-            <li><a href="https://x.com/NahsirF">Twitter</a></li>
-            <li><a href="https://www.youtube.com/@Nahsir-j5n">Youtube</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#goals">Goals</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="socials">
+            <a href="https://x.com/NahsirF" target="_blank" rel="noreferrer">Twitter</a>
+            <a href="https://www.youtube.com/@Nahsir-j5n" target="_blank" rel="noreferrer">YouTube</a>
+        </div>
     </nav>
 
-    <!-- 2. The Target Sections -->
-    <section id="about-me">
-        <h2>About Me</h2>
-        <p>I am 18 years old enrolled at Brewster Technical School learning web development.</p>
-    </section>
+    <main>
+        <section class="hero panel">
+            <div class="hero-copy">
+                <p class="eyebrow">Developer • Creator • Learner</p>
+                <h1>Building creative web experiences with passion.</h1>
+                <p class="lead">I’m Nahsir Frederick, an 18-year-old web developer learning at Brewster Technical School. I enjoy designing bold interfaces, exploring new ideas, and turning concepts into engaging digital experiences.</p>
+                <div class="hero-actions">
+                    <a href="#projects" class="primary-btn">View Projects</a>
+                    <a href="#contact" class="secondary-btn">Let’s Connect</a>
+                </div>
+                <ul class="mini-stats">
+                    <li><strong>18</strong><span>Years old</span></li>
+                    <li><strong>3+</strong><span>Creative projects</span></li>
+                    <li><strong>1</strong><span>Strong work ethic</span></li>
+                </ul>
+            </div>
+            <div class="hero-visual">
+                <div class="photo-frame">
+                    <img src="me.jpg" alt="Nahsir Frederick portrait">
+                </div>
+            </div>
+        </section>
 
-    <section id="Interests">
-        <h2>Interests</h2>
-        <p>Art/sketching characters, gaming, and TV.</p>
-    </section>
+        <section id="about" class="panel">
+            <div class="section-heading">
+                <p class="eyebrow">About me</p>
+                <h2>Creative thinker with a love for design and storytelling.</h2>
+            </div>
+            <div class="about-grid">
+                <p>I’m currently expanding my skills in web development and building a portfolio that reflects my interests, creativity, and work style. I love sketching characters, exploring games and media, and creating visuals that feel immersive and memorable.</p>
+                <p>My goal is to grow into a developer who can bring ideas to life with both clean code and strong design sense. I enjoy learning quickly, practicing consistently, and following a task through to completion with care.</p>
+            </div>
+        </section>
 
-    <section id="contact">
-        <h2>Contact me</h2>
-        <p>You may contact me by reaching out on any of my socials or my email address anytime that is not a inconvenient time.</p>
-    </section>
+        <section id="skills" class="panel">
+            <div class="section-heading">
+                <p class="eyebrow">Skills</p>
+                <h2>What I bring to the table.</h2>
+            </div>
+            <ul class="skill-list">
+                <li>Art and character sketching</li>
+                <li>Web development fundamentals</li>
+                <li>Creative writing and storytelling</li>
+                <li>Photoshop editing</li>
+                <li>Quick learning and adaptability</li>
+                <li>Task-focused execution</li>
+                <li>Digital design thinking</li>
+                <li>Research and idea exploration</li>
+            </ul>
+        </section>
 
-    <section id="skills">
-  <h2>My Skills</h2>
-  <ul>
-    <li>Art/sketching</li>
-    <li>Numerous knowledge of different topics of entertainment</li>
-    <li>Able to make long story driven paragraphs</li>
-    <li>Photoshop (it has been a bit though)</li>
-    <li>Abled to learn quick</li>
-    <li>Can follow a task to the letter</li>
-  </ul>
-</section>
+        <section id="projects" class="panel">
+            <div class="section-heading">
+                <p class="eyebrow">Projects</p>
+                <h2>Selected work and concepts.</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Media Recommendation Site</h3>
+                        <p>A personalized website designed to spotlight shows, movies, and games I love recommending to others looking for their next obsession.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </article>
 
- <div class="projects-grid">
-      <!-- Project Card 1 -->
-      <article class="project-card">
-        <div class="project-content">
-          <h3>Media Recommendation Site</h3>
-          <p>A website of my design to to showcase different shows, movies, and games that I have a massive interests in and wish to recommend to others seeking new topics to take in for fun.</p>
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-          <a href="#http://127.0.0.1:5501/index.html" class="project-link">View Project</a>
-        </div>
-      </article>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>CSS Grid Arcade</h3>
+                        <p>A fan-made arcade experience built with HTML, CSS, and JavaScript, focused on playful interaction and retro energy.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </article>
 
-      <!-- Project Card 1 -->
-      <article class="project-card">
-        <div class="project-content">
-          <h3>CSS-grid-arcade</h3>
-          <p> A fan-made arcade game built with HTML, CSS, and JavaScript.</p>
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-          <a href="#http://127.0.0.1:5501/index.html" class="project-link">View Project</a>
-        </div>
-      </article>
+                <article class="project-card">
+                    <div class="project-content">
+                        <h3>Alien Abduction</h3>
+                        <p>An imaginative adventure game concept that blends storytelling and interactive gameplay in a quirky sci-fi theme.</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">View Project</a>
+                    </div>
+                </article>
+            </div>
+        </section>
 
-      <!-- Project Card 1 -->
-      <article class="project-card">
-        <div class="project-content">
-          <h3>Alien abduction</h3>
-          <p>A thrilling adventure game where you play as an alien being abducted by humans.</p>
-          <div class="project-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-          </div>
-          <a href="##http://127.0.0.1:5501/index.html" class="project-link">View Project</a>
-        </div>
-      </article>
-    </div>
+        <section id="goals" class="panel goals-panel">
+            <div class="section-heading">
+                <p class="eyebrow">Goals</p>
+                <h2>Current milestones I’m working toward.</h2>
+            </div>
+            <ul class="goals-list">
+                <li>Complete my web development coursework at Brewster Technical School.</li>
+                <li>Build a stronger portfolio of polished projects.</li>
+                <li>Create an expanding personal website that showcases my interests and creative work.</li>
+                <li>Grow confident enough to build websites quickly and professionally.</li>
+                <li>Help others bring their business ideas to life through thoughtful design and development.</li>
+            </ul>
+        </section>
 
-      <section id="goals" class="goals-section">
-        <h2>My current Goals</h2>
-        <p>Here are the key milestones I am working toward this year:</p>
+        <section id="contact" class="panel contact-panel">
+            <div class="section-heading">
+                <p class="eyebrow">Contact</p>
+                <h2>Let’s connect.</h2>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-copy">
+                    <p>Have a question, collaboration idea, or just want to say hello? You can reach out through any of the channels below.</p>
+                    <address class="contact-info">
+                        <div class="contact-item"><strong>Name:</strong> Nahsir Frederick</div>
+                        <div class="contact-item"><strong>Email:</strong> <a href="mailto:fredericknahsir@gmail.com">fredericknahsir@gmail.com</a></div>
+                        <div class="contact-item"><strong>Social:</strong> <a href="https://x.com/NahsirF" target="_blank" rel="noreferrer">Twitter</a> · <a href="https://www.youtube.com/@Nahsir-j5n" target="_blank" rel="noreferrer">YouTube</a></div>
+                    </address>
+                </div>
+                <div class="contact-visual">
+                    <img src="me.jpg" alt="Nahsir Frederick portrait">
+                </div>
+            </div>
+        </section>
+    </main>
 
-        <ul class="goals-list">
-            <li>Complete my web development course at Brewster Technical College.</li>
-            <li>Build a portfolio of projects to showcase my skills.</li>
-            <li>Make a expanding website to showcase all of my interests.</li>
-            <li>Get to the point where I can just make websites with ease.</li>
-            <li>Be abled to make anyone a website with a great business idea.</li>
-        </ul>
-      </section>
-
-      <section class="contact-section">
-  <h2>Get in Touch</h2>
-  <p>Have questions or want to work together? Feel free to reach out to me through any of the channels below.</p>
-
-  <!-- The <address> tag provides important semantic meaning for contact info -->
-  <address class="contact-info">
-    <div class="contact-item">
-      <strong>Nahsir Frederick</strong> 
-    </div>
-
-    <div class="contact-item">
-      <strong>Email:</strong> 
-      <a href="mailto:fredericknahsir@gmail.com">fredericknahsir@gmail.com</a>
-    </div>
-
-    <img src="me.jpg" alt="Nahsir Frederick" class="contact-image">
-
-    <a href="https://example.com" class="html-button">Click Me</a>
-
-    <button class="interactive-btn">Hover & Click Me</button>
-
-    <header style="border-bottom: 1px solid #E2E8F0; border-radius: 8px; padding: 20px; max-width: 300px">
-      <h1>Product Features</h1>
-      <p>This is a grouped piece of content contained intentially.</p>
-    </header>
+    <footer>
+        <p>© 2026 Nahsir Frederick</p>
+        <p>Designed with creativity and curiosity.</p>
+    </footer>
 </body>
 </html>
